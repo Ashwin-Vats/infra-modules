@@ -7,5 +7,5 @@ output "cert_manager_irsa_role" {
 }
 
 output "autoscaler_irsa_role" {
-  value = aws_iam_role.autoscaler.arn
+  value = aws_iam_role.cluster_autoscaler.arn
 }
